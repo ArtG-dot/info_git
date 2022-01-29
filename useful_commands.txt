@@ -1,0 +1,18 @@
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+/*installing GIT Bash and creating new repository*/
+
+/*check if git is installed*/
+git version
+
+
+/*initialisation local repository <git_repo>*/
+cd git_repo
+git init
+
+
+/*connection to remote repository*/
+git remote add origin https://github.com/ArtG-dot/test_rep.git
+git remote -v /*2 inits*/
